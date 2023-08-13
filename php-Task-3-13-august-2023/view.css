@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
+}
+
+table{
+    margin: 100px auto;
+    text-align: center;
+    width: 80%;
+    background: linear-gradient(#0363f3,#00000050);
+    box-shadow:  0 5px 20px #000000c4;
+}
+
+th{
+    /* border: 1px solid #c5bfbf; */
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+td{
+    border: 1px solid #f5e0e0;
+    padding: 30px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+td a{
+    text-decoration: none;
+    margin:  0 5px;
+    padding: 10px 40px;
+    border-radius: 20px;
+    background: rgb(7, 193, 250);
+    color: #ffffff;
+    transition: all .5s;
+}
+
+td a:hover{
+    background:#000;
+}

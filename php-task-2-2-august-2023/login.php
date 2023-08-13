@@ -1,18 +1,17 @@
-<!-- login_form.php -->
 <!DOCTYPE html>
 <html>
 
 <head>
     <title>Login Page</title>
     <style>
-
         form {
             display: flex;
             flex-direction: column;
             width: 50%;
             margin: 50px auto;
         }
-        h2{
+
+        h2 {
             text-align: center;
             font-size: 50px;
             color: #666;
