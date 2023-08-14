@@ -30,6 +30,8 @@ button{
     border: none;
     background: linear-gradient(#0345fb,#00000061);
     margin: auto;
+    color: #fff;
+    font-size: 25px;
 }
 
 .update{
@@ -45,4 +47,20 @@ textarea{
     width: 50%;
     margin: auto;
     height: 35px;
+}
+
+
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    font-size: 25px;
+   border-radius: 30px;
+    color:#fff ;
+    text-decoration: none;
+    background: rgb(7, 193, 250);
+
 }

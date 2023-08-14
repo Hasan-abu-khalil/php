@@ -18,11 +18,13 @@
         <label for="description_product">Description:</label>
         <input type="text" name="description_product" required><br>
         <label for="price">Price:</label>
-        <input type="number" name="price" required><br>
+        <input type="number" name="price" required ><br>
         
         
         <button type="submit">Add Product</button>
+
     </form>
+    <a class="add" href="view.php">back to home</a>
     
     <!-- <?php include "view.php"; ?> -->
 

@@ -58,12 +58,15 @@ $query = mysqli_query($conection, $select);
                   <td>
                   <a href='update.php?id= " . $result['id'] . "'>Update</a>
                   <a href='view.php?id=" . $result['id'] . "'>Delete</a>
+                  
                   </td>
                 </tr>";
             }
         }
         ?>
     </table>
+    <a class="add" href="create-product.php">add product</a>
+
 
 </body>
 

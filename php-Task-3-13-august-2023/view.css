@@ -30,8 +30,8 @@ td{
 
 td a{
     text-decoration: none;
-    margin:  0 5px;
-    padding: 10px 40px;
+    margin:  0 2px;
+    padding: 5px 20px;
     border-radius: 20px;
     background: rgb(7, 193, 250);
     color: #ffffff;
@@ -40,4 +40,19 @@ td a{
 
 td a:hover{
     background:#000;
+}
+
+.add{
+    display: flex;
+    width: 200px;
+    height: 45px;
+    margin: auto;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+   border-radius: 30px;
+    color:#fff ;
+    text-decoration: none;
+    background: rgb(7, 193, 250);
+
 }
